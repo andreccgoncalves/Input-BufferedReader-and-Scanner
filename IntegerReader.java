@@ -21,7 +21,7 @@ public class IntegerReader {
      */
     public static void main(String[] args) throws FileNotFoundException, IOException {
 
-     String fileName = "numbers.txt";   
+      String fileName = "numbers.txt";   
      
      try {
      
@@ -41,10 +41,11 @@ public class IntegerReader {
         }
         else {
             System.out.println("Accepted");
+            System.out.println("The number on the file is: " + num1);
         }
         break;
     }
-       
+         
     }
     catch (Exception e) {
         System.out.println("Empty file or the content is not an Integer");
